@@ -12,8 +12,8 @@ end
 def countdown_with_sleep
   x=100
   while x>0
+  sleep.10
   puts "#{x} SECOND(S)!"
   x-=1 
-  sleep 10
 end
 end
